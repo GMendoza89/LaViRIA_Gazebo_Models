@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="LaViRIA_floor">
+    <static>true</static>
+    <link name="link">
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://LaViRIA_floor/meshes/LaViRIA_floor_12x12.dae</uri>
+          </mesh>
+        </geometry>
+          <surface>
+            <friction>
+              <ode>
+                <mu>0.60</mu>
+              </ode>
+            </friction>
+          </surface>
+      </collision>
+      <visual name="visual">
+        <cast_shadows>false</cast_shadows>
+        <geometry>
+          <mesh>
+            <uri>model://LaViRIA_floor/meshes/LaViRIA_floor_12x12.dae</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1.0 1.0 1.0 1.0</ambient>
+          <diffuse>1.0 1.0 1.0 1.0</diffuse>
+          <specular>1.0 1.0 1.0 1.0</specular>
+          <emissive>1.0 1.0 1.0 1.0</emissive>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>

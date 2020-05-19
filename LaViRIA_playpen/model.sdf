@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="LaViRIA_barnyard">
+    <link name="link">
+      <inertial>
+        <pose>0 0 0.4 0 0 0</pose>
+        <mass>390.318</mass>
+        <inertia>
+          <ixx>72.9034</ixx>
+          <iyy>809.906</iyy>
+          <izz>882.784</izz>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+        </inertia>
+      </inertial>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://LaViRIA_barnyard/meshes/LaViRIA_barnyard.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://LaViRIA_barnyard/meshes/LaViRIA_barnyard.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>

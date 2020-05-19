@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="LaViRIA_panel_S">
+    <link name="link">
+    <static>true</static>
+      <inertial>
+        <pose>0 0 0 0 0 0</pose>
+        <mass>20.49921667</mass>
+        <inertia>
+          <ixx>3.84441458</ixx>
+          <iyy>5.55205625</iyy>
+          <izz>1.70900833</izz>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+        </inertia>
+      </inertial>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://LaViRIA_panel_S/meshes/LaViRIA_panel_S.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://LaViRIA_panel_S/meshes/LaViRIA_panel_S.dae</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.8 0.32 0.12 1.0</ambient>
+          <diffuse>0.8 0.32 0.12 1.0</diffuse>
+          <specular>0.8 0.32 0.12 1.0</specular>
+          <emissive>0.8 0.32 0.12 1.0</emissive>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>

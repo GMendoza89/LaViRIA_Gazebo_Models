@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="LaViRIA_cylinder_M">
+    <link name="link">
+      <inertial>
+        <pose>0 0 0 0 0 0</pose>
+        <mass>219.1464</mass>
+        <inertia>
+          <ixx>42.1512</ixx>
+          <iyy>42.1512</iyy>
+          <izz>2.124</izz>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+        </inertia>
+      </inertial>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://LaViRIA_cylinder_M/meshes/LaViRIA_cylinder_M.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://LaViRIA_cylinder_M/meshes/LaViRIA_cylinder_M.dae</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.009 .799 0.04 1.0</ambient>
+          <diffuse>0.009 .799 0.04 1.0</diffuse>
+          <specular>0.009 .799 0.04 1.0</specular>
+          <emissive>0.009 .799 0.04 1.0</emissive>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>
