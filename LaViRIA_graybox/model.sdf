@@ -1,11 +1,11 @@
 <?xml version="1.0" ?>
 <sdf version="1.5">
-  <model name="LaViRIA_barnyard">
+  <model name="LaViRIA_graybox">
     <link name="link">
     <static>true</static>
       <inertial>
         <pose>0 0 0 0 0 0</pose>
-        <mass>390.318</mass>
+        <mass>5</mass>
         <inertia>
           <ixx>0.133359375</ixx>
           <iyy>0.133359375</iyy>
